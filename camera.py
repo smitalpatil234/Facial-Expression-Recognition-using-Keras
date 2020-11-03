@@ -8,7 +8,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 
 class VideoCamera(object):
     def __init__(self):
-        self.video = cv2.VideoCapture('/home/rhyme/Desktop/Project/videos/presidential_debate.mp4')
+        self.video = cv2.VideoCapture('/home/rhyme/Desktop/Project/videos/presidential_debate.mp4') # to acces live camera replace value in bracket by 0
 
     def __del__(self):
         self.video.release()
